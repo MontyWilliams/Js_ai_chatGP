@@ -66,7 +66,7 @@ const handleSubmit = async (e) => {
   chatContainer.innerHTML += chatDialog(false, data.get('prompt'));
   form.reset();
 
-  //  The Ai will be typing so chatDialog will be tru
+  //  The Ai will be typing so chatDialog will be true
   const uniqueId = generateUniqueId();
   chatContainer.innerHTML += chatDialog(true, " ", uniqueId);
 
