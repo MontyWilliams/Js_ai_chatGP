@@ -18,10 +18,10 @@ body {
 #app {
   width: 100vw;
   height: 100vh;
-  background-image: url('cyber.jpg');
-  background-repeat: no-repeat;
+  /* background-image: url('cyber.jpg'); */
+  /* background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
   /* background-size: 100%; */
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@ body {
 }
 
 #overlay {
-  background-color: #da151fc7;
+  background-color: #da151f25;
   z-index: 2;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .wrapper {
-  width: 100%;
+  /* width: 100%; */
   padding: 15px;
   background-color: #44aa4d41;
 }
@@ -184,9 +184,20 @@ form img {
 }
 
 .footer a {
-  padding: 20px;
   color: #f0f0f0;
   font-size: 14px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer li {
+  color: #f0f0f0;
+
+  padding: 0 2rem 0 2rem;
 }
 
 .footer img {

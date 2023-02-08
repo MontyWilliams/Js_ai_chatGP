@@ -1,6 +1,13 @@
 import bot from './assets/bot.svg';
 import user from './assets/user.svg';
 
+document.body.style.backgroundImage = "url('tulsa-oklahoma.gif')";
+document.body.style.backgroundRepeat= "no-repeat";
+document.body.style.backgroundSize= "cover";
+document.body.style.backgroundPosition= "center center";
+
+
+
 const form = document.querySelector('form');
 const chatContainer = document.querySelector('#chat_container');
 
